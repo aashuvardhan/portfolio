@@ -129,6 +129,11 @@ const MobileMenu = styled.ul`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
+const LogoImage = styled.img`
+  height: 90px;      /* tweak as you like */
+  width: auto;
+  display: block;
+`;
 
 
 
@@ -172,7 +177,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer ref={container}>
-        <NavLogo className="logo" to="/" onClick={handleLogoClick}>Y V</NavLogo>
+        <NavLogo className="logo" to="/" onClick={handleLogoClick}><LogoImage src="https://res.cloudinary.com/du1xovgrr/image/upload/v1765198136/Adobe_Express_-_file_bqbzab.png" alt="Y V" /></NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
