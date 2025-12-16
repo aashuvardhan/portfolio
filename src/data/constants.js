@@ -9,7 +9,7 @@ export const Bio = {
     "I am a proactive and adaptable professional, consistently seeking opportunities to expand my skill set. Driven by a deep commitment to excellence, I approach every task with vigor and precision. My optimistic outlook and dedication to continuous improvement ensure I am prepared to contribute significantly and collaboratively to any objective.",
   github: "https://github.com/aashuvardhan",
   resume:
-    "https://drive.google.com/file/d/1y_fZh1PBEBRht36RJ1LWlYlTLQP7p6dc/view?usp=sharing",
+    "https://drive.google.com/file/d/1_CktQbC7XjBnQambfQpbpqvPhCwyDtA-/view",
   linkedin: "https://www.linkedin.com/in/yashvardhan-/",
   insta: "https://www.instagram.com/_soulcoder_/",
   whatsapp: "https://api.whatsapp.com/send/?phone=916203523212",
